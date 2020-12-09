@@ -390,6 +390,31 @@
     .contact__info:hover{
       top:-2px;
     }
+    @media only screen and (max-width:800px){
+      .intro__left{
+        width: 100%;
+        max-width: 400px;
+      }
+      .intro__imageWrapper{
+        padding-top:100%;
+      }
+      .intro__image{
+        object-fit: contain;
+        object-position: left;
+      }
+      .intro__right{
+        width:100%;
+      }
+      .sideBySide__inner{
+        flex-direction:column;
+      }
+      .sideBySide__imageBlock{
+        width:100%;
+      }
+      .sideBySide__textBlock{
+        width:100%;
+      }
+    }
   </style>
 
 </body>
